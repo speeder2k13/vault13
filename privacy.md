@@ -32,7 +32,7 @@ Vault13 does not knowingly collect information from anyone, including children, 
 If this policy changes, the new version will be published on this page with a new effective date.
 
 ## Contact
-CONTACT
+ionut00@gmail.com
 
 ---
 
@@ -42,5 +42,4 @@ Data intrării în vigoare: 12 noiembrie 2026
 
 Vault13 nu colectează date. Nu are cont, analiză statistică, reclame sau SDK-uri externe. Pozele și clipurile sunt criptate AES-256 pe dispozitiv; backup-ul opțional stă criptat în folderul ales de tine din iCloud Drive, la care noi nu avem acces. PIN-urile, cheia seifului și codul de recuperare stau doar în Keychain-ul dispozitivului. Accesul la Poze e folosit doar pentru import, salvare în Poze la cerere și, dacă activezi opțiunea, ștergerea originalelor (cu confirmarea iOS). Poți șterge totul din Setări > Resetare sau ștergând aplicația și folderul Vault13 din iCloud Drive.
 
-Contact: CONTACT
-ionut00@gmail.com
+Contact: ionut00@gmail.com
