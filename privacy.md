@@ -11,6 +11,7 @@ Vault13 does not collect any data. There is no account, no analytics, no adverti
 - Everything you import or shoot is encrypted on your device with AES-256 before it is saved. Thumbnails and album names are encrypted too.
 - Information inside a photo or video file (date, camera, location) stays inside the encrypted file. Vault13 only shows it to you, in the details panel.
 - If you choose a backup folder, an encrypted copy is stored in your own iCloud Drive, in the folder you picked. iCloud is provided by Apple under Apple's privacy policy. We have no access to it, and the files cannot be opened without your vault key.
+- If a photo or video already contains a location, Vault13 copies its coordinates into the encrypted album list when you import it, so it can appear on the map in Search. You can remove it at any time (Search > Select > Location). Vault13 never asks for access to your current location.
 - If you use the same folder on several devices, the encrypted album list also holds a random identifier created by the app for each device. It is used only to keep those devices in sync.
 
 ## PINs, vault key and recovery code
@@ -30,6 +31,9 @@ The microphone is used only while you record a video with the private camera. Th
 
 ## Intruder log
 Every wrong PIN entered on the vault door is saved in a log with the date, the time and the digits that were typed. The log is encrypted, stays on your device, holds at most 200 entries and can be cleared in Settings > Intruder Log.
+
+## Map
+The map in Search is provided by Apple (MapKit). When you open it, map images for the area on screen are downloaded from Apple. Vault13 does not send your photos or their coordinates; Apple may see which map area is displayed, under Apple's privacy policy.
 
 ## Photo library access
 Vault13 asks for access to Photos only to import the items you select, to save items back to Photos when you ask, and, if you turn this option on, to delete the originals after import. iOS asks you to confirm every deletion.
@@ -72,6 +76,7 @@ Vault13 nu colectează date. Nu are cont, analiză statistică, reclame sau SDK-
 - Tot ce imporți sau fotografiezi e criptat AES-256 pe dispozitiv, înainte de salvare. Miniaturile și numele albumelor sunt și ele criptate.
 - Informațiile din fișier (data, aparatul, locația) rămân în fișierul criptat. Vault13 doar ți le arată, în fereastra de detalii.
 - Dacă alegi un folder de backup, o copie criptată stă în propriul tău iCloud Drive, în folderul ales. iCloud e oferit de Apple, conform politicii Apple. Noi nu avem acces la el, iar fișierele nu pot fi deschise fără cheia seifului.
+- Dacă o poză sau un clip conține deja o locație, la import Vault13 copiază coordonatele în lista criptată de albume, ca să poată apărea pe harta din Căutare. Le poți șterge oricând (Căutare > Selectează > Locație). Vault13 nu cere niciodată acces la locația ta curentă.
 - Dacă folosești același folder pe mai multe dispozitive, lista criptată de albume conține și un identificator aleatoriu, creat de aplicație pentru fiecare dispozitiv. E folosit doar pentru sincronizare.
 
 ## PIN-urile, cheia seifului și codul de recuperare
@@ -91,6 +96,9 @@ Microfonul e folosit doar cât filmezi cu camera privată. Sunetul face parte di
 
 ## Jurnalul de intruși
 Fiecare PIN greșit introdus pe ușa seifului e salvat într-un jurnal, cu data, ora și cifrele tastate. Jurnalul e criptat, rămâne pe dispozitiv, păstrează cel mult 200 de înregistrări și poate fi șters din Setări > Jurnal intruși.
+
+## Harta
+Harta din Căutare e oferită de Apple (MapKit). Când o deschizi, imaginile hărții pentru zona de pe ecran se descarcă de la Apple. Vault13 nu trimite pozele sau coordonatele lor; Apple poate vedea ce zonă a hărții e afișată, conform politicii Apple.
 
 ## Accesul la Poze
 Vault13 cere acces la Poze doar ca să importe ce alegi tu, să salveze înapoi în Poze la cererea ta și, dacă pornești opțiunea, să șteargă originalele după import. iOS îți cere confirmarea la fiecare ștergere.
