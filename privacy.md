@@ -10,13 +10,14 @@ Vault13 does not collect any data. There is no account, no analytics, no adverti
 ## Your photos and videos
 - Everything you import or shoot is encrypted on your device with AES-256 before it is saved. Thumbnails and album names are encrypted too.
 - Information inside a photo or video file (date, camera, location) stays inside the encrypted file. Vault13 only shows it to you, in the details panel.
-- If you choose a backup folder, an encrypted copy is stored in your own iCloud Drive, in the folder you picked. iCloud is provided by Apple under Apple's privacy policy. We have no access to it, and the files cannot be opened without your vault key.
+- If you choose a backup folder, an encrypted copy is stored in your own iCloud Drive, in the folder you picked. iCloud is provided by Apple under Apple's privacy policy. We have no access to it, and the files cannot be opened without your vault key. The vault's files on the device are left out of the iPhone or iPad device backup, so this folder is the only backup.
 - If a photo or video already contains a location, Vault13 copies its coordinates into the encrypted album list when you import it, so it can appear on the map in Search. You can remove it at any time (Search > Select > Location). Vault13 never asks for access to your current location.
 - If you use the same folder on several devices, the encrypted album list also holds a random identifier created by the app for each device. It is used only to keep those devices in sync.
 
 ## PINs, vault key and recovery code
 - Your PINs, the vault key and the recovery code are stored in the iOS Keychain on your device.
 - To let you restore the vault on another device, the backup folder also holds a copy of the vault key, encrypted with your recovery code. It cannot be opened without that code.
+- The count of wrong PIN attempts, and any pause that follows them, is kept in the iOS Keychain too.
 - We never receive your PINs, your key or your recovery code.
 
 ## Camera
@@ -43,6 +44,9 @@ Vault13 reads only the files you pick in the Files app, the photo or video you c
 
 ## Motion
 While the vault is open, Vault13 reads the device's position to lock the vault when you place it face down. This is processed on the device and is not stored. You can turn it off in Settings > Security.
+
+## Encrypted packages
+You can pack photos and videos into a single file protected by a password you choose, and share it yourself (AirDrop, Files). The file is encrypted with AES-256 on your device. Vault13 does not store the password and does not send the file anywhere: you decide where it goes. Anyone who has both the file and the password can open it in Vault13.
 
 ## Settings
 Your preferences (language, sound, import quality and similar) are stored only on your device.
@@ -75,13 +79,14 @@ Vault13 nu colectează date. Nu are cont, analiză statistică, reclame sau SDK-
 ## Pozele și clipurile tale
 - Tot ce imporți sau fotografiezi e criptat AES-256 pe dispozitiv, înainte de salvare. Miniaturile și numele albumelor sunt și ele criptate.
 - Informațiile din fișier (data, aparatul, locația) rămân în fișierul criptat. Vault13 doar ți le arată, în fereastra de detalii.
-- Dacă alegi un folder de backup, o copie criptată stă în propriul tău iCloud Drive, în folderul ales. iCloud e oferit de Apple, conform politicii Apple. Noi nu avem acces la el, iar fișierele nu pot fi deschise fără cheia seifului.
+- Dacă alegi un folder de backup, o copie criptată stă în propriul tău iCloud Drive, în folderul ales. iCloud e oferit de Apple, conform politicii Apple. Noi nu avem acces la el, iar fișierele nu pot fi deschise fără cheia seifului. Fișierele seifului de pe dispozitiv nu intră în backup-ul iPhone-ului sau al iPad-ului, deci acest folder e singurul backup.
 - Dacă o poză sau un clip conține deja o locație, la import Vault13 copiază coordonatele în lista criptată de albume, ca să poată apărea pe harta din Căutare. Le poți șterge oricând (Căutare > Selectează > Locație). Vault13 nu cere niciodată acces la locația ta curentă.
 - Dacă folosești același folder pe mai multe dispozitive, lista criptată de albume conține și un identificator aleatoriu, creat de aplicație pentru fiecare dispozitiv. E folosit doar pentru sincronizare.
 
 ## PIN-urile, cheia seifului și codul de recuperare
 - PIN-urile, cheia seifului și codul de recuperare stau în Keychain-ul iOS de pe dispozitiv.
 - Ca să poți restaura seiful pe alt dispozitiv, în folderul de backup stă și o copie a cheii seifului, criptată cu codul tău de recuperare. Nu poate fi deschisă fără acel cod.
+- Numărul de PIN-uri greșite și pauza care le urmează stau tot în Keychain-ul iOS.
 - Noi nu primim niciodată PIN-urile, cheia sau codul tău de recuperare.
 
 ## Camera
@@ -108,6 +113,9 @@ Vault13 citește doar fișierele pe care le alegi în aplicația Fișiere, poza 
 
 ## Mișcarea dispozitivului
 Cât seiful e deschis, Vault13 citește poziția dispozitivului ca să blocheze seiful când îl așezi cu ecranul în jos. Totul se întâmplă pe dispozitiv și nu se salvează nimic. Poți opri funcția din Setări > Securitate.
+
+## Pachete criptate
+Poți pune poze și clipuri într-un singur fișier, protejat cu o parolă aleasă de tine, pe care îl trimiți tu (AirDrop, Fișiere). Fișierul e criptat AES-256 pe dispozitiv. Vault13 nu păstrează parola și nu trimite fișierul nicăieri: tu hotărăști unde ajunge. Cine are și fișierul, și parola îl poate deschide în Vault13.
 
 ## Setările
 Preferințele tale (limbă, sunet, calitatea importului și altele) stau doar pe dispozitiv.
