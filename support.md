@@ -6,7 +6,7 @@
 
 **I forgot the PIN and lost the code.** Nobody can open the vault, not even us: the photos are encrypted with a key only you hold.
 
-**The door says "Locked. Try again in...".** After 5 wrong PINs the door pauses: 30 seconds, then 1, 5 and 15 minutes, then 1 hour. Wait for the countdown, or hold the dial for 5 seconds and use your recovery code. Only the real PIN or the recovery code clears the count.
+**The door says "Locked. Try again in...".** After 5 wrong PINs the door pauses: 30 seconds, then 1, 5 and 15 minutes, then 1 hour. Wait for the countdown: during the pause the keypad and the dial do not respond. After it you can enter the PIN again, or hold the dial for 5 seconds and use your recovery code. Only the real PIN or the recovery code clears the count.
 
 **New device or reinstall.** During setup choose the same iCloud Drive folder. Vault13 finds the existing vault and restores it with your recovery code.
 
@@ -16,7 +16,7 @@
 
 **The camera does not open.** Allow camera access in iOS Settings > Vault13 > Camera. Recording video also needs Microphone access.
 
-**How does the intruder log work?** Every wrong PIN is listed in Settings > Intruder Log, with date and time. Turn on "Photo after 3 wrong attempts" to also get a front camera photo on every third wrong attempt. The photos appear in the Intruders album the next time you open the real vault.
+**How does the intruder log work?** Every wrong PIN is listed in Settings > Intruder Log, with date and time. Turn on "Photo after 3 wrong attempts" to also get a front camera photo on every third wrong attempt. The photos appear in the Intruders album the next time you open the real vault. Turn on "Location on wrong PIN" to also save where the device was; tap the orange pin next to an entry to see the place on a map. The map needs an internet connection; the coordinates are shown even without one.
 
 **The vault locks when I put the device down.** That is "Lock when face down". You can turn it off in Settings > Security.
 
@@ -36,7 +36,7 @@
 
 **Am uitat și PIN-ul, și codul.** Nimeni nu mai poate deschide seiful, nici noi: pozele sunt criptate cu o cheie pe care o ai doar tu.
 
-**Pe ușă scrie „Blocat. Incearca in...”.** După 5 PIN-uri greșite ușa face o pauză: 30 de secunde, apoi 1, 5 și 15 minute, apoi 1 oră. Aștepți numărătoarea sau ții apăsat 5 secunde pe disc și folosești codul de recuperare. Doar PIN-ul real sau codul de recuperare șterg numărătoarea.
+**Pe ușă scrie „Blocat. Incearca in...”.** După 5 PIN-uri greșite ușa face o pauză: 30 de secunde, apoi 1, 5 și 15 minute, apoi 1 oră. Aștepți numărătoarea: în pauză tastele și discul nu răspund. După ea poți introduce din nou PIN-ul sau ții apăsat 5 secunde pe disc și folosești codul de recuperare. Doar PIN-ul real sau codul de recuperare șterg numărătoarea.
 
 **Dispozitiv nou sau reinstalare.** La configurare alege același folder din iCloud Drive; Vault13 găsește seiful și îl restaurează cu codul de recuperare.
 
@@ -46,7 +46,7 @@
 
 **Camera nu se deschide.** Permite accesul la cameră din Configurări > Vault13 > Cameră. Pentru filmare e nevoie și de acces la Microfon.
 
-**Cum funcționează jurnalul de intruși?** Fiecare PIN greșit apare în Setări > Jurnal intruși, cu data și ora. Pornește „Poză la 3 încercări greșite” ca să primești și o poză făcută cu camera frontală la fiecare a treia încercare greșită. Pozele apar în albumul Intruși la următoarea deschidere a seifului real.
+**Cum funcționează jurnalul de intruși?** Fiecare PIN greșit apare în Setări > Jurnal intruși, cu data și ora. Pornește „Poză la 3 încercări greșite” ca să primești și o poză făcută cu camera frontală la fiecare a treia încercare greșită. Pozele apar în albumul Intruși la următoarea deschidere a seifului real. Pornește „Poziția la PIN greșit” ca să se salveze și locul în care era dispozitivul; atinge pinul portocaliu de lângă o înregistrare ca să vezi locul pe hartă. Harta are nevoie de internet; coordonatele se văd și fără.
 
 **Seiful se blochează când las dispozitivul jos.** Este „Blocare cu ecranul în jos”. O poți opri din Setări > Securitate.
 
