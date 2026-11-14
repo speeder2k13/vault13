@@ -1,6 +1,6 @@
 # Vault13 – Privacy Policy
 
-Effective date: 13 November 2026
+Effective date: 14 November 2026
 
 Vault13 is a private photo and video vault for iPhone and iPad, made by Speeder2k13.
 
@@ -11,7 +11,7 @@ Vault13 does not collect any data. There is no account, no analytics, no adverti
 - Everything you import or shoot is encrypted on your device with AES-256 before it is saved. Thumbnails and album names are encrypted too.
 - Information inside a photo or video file (date, camera, location) stays inside the encrypted file. Vault13 only shows it to you, in the details panel.
 - If you choose a backup folder, an encrypted copy is stored in your own iCloud Drive, in the folder you picked. iCloud is provided by Apple under Apple's privacy policy. We have no access to it, and the files cannot be opened without your vault key. The vault's files on the device are left out of the iPhone or iPad device backup, so this folder is the only backup.
-- If a photo or video already contains a location, Vault13 copies its coordinates into the encrypted album list when you import it, so it can appear on the map in Search. You can remove it at any time (Search > Select > Location). Vault13 never asks for access to your current location.
+- If a photo or video already contains a location, Vault13 copies its coordinates into the encrypted album list when you import it, so it can appear on the map in Search. You can remove it at any time (Search > Select > Location). The only time Vault13 reads your current location is the optional intruder log setting described below.
 - If you use the same folder on several devices, the encrypted album list also holds a random identifier created by the app for each device. It is used only to keep those devices in sync.
 
 ## PINs, vault key and recovery code
@@ -33,8 +33,10 @@ The microphone is used only while you record a video with the private camera. Th
 ## Intruder log
 Every wrong PIN entered on the vault door is saved in a log with the date, the time and the digits that were typed. The log is encrypted, stays on your device, holds at most 200 entries and can be cleared in Settings > Intruder Log.
 
+Location on wrong PIN: this option is off by default. If you turn it on and allow location access while using the app, Vault13 reads the device's location once after each wrong PIN and saves the coordinates in the same encrypted log. If an intruder photo is taken, it keeps the same coordinates in the encrypted album list, like any other photo with a location. The coordinates are never sent to us or to anyone else. You can turn the option off in Settings > Intruder Log and withdraw location access in iOS Settings > Vault13.
+
 ## Map
-The map in Search is provided by Apple (MapKit). When you open it, map images for the area on screen are downloaded from Apple. Vault13 does not send your photos or their coordinates; Apple may see which map area is displayed, under Apple's privacy policy.
+The maps in Search and in the intruder log are provided by Apple (MapKit). When you open one, map images for the area on screen are downloaded from Apple. Vault13 does not send your photos or their coordinates; Apple may see which map area is displayed, under Apple's privacy policy.
 
 ## Photo library access
 Vault13 asks for access to Photos only to import the items you select, to save items back to Photos when you ask, and, if you turn this option on, to delete the originals after import. iOS asks you to confirm every deletion.
@@ -69,7 +71,7 @@ ionut00@gmail.com
 
 # Vault13 – Politica de confidențialitate (română)
 
-Data intrării în vigoare: 13 noiembrie 2026
+Data intrării în vigoare: 14 noiembrie 2026
 
 Vault13 este un seif privat pentru poze și clipuri, pentru iPhone și iPad, făcut de Speeder2k13.
 
@@ -80,7 +82,7 @@ Vault13 nu colectează date. Nu are cont, analiză statistică, reclame sau SDK-
 - Tot ce imporți sau fotografiezi e criptat AES-256 pe dispozitiv, înainte de salvare. Miniaturile și numele albumelor sunt și ele criptate.
 - Informațiile din fișier (data, aparatul, locația) rămân în fișierul criptat. Vault13 doar ți le arată, în fereastra de detalii.
 - Dacă alegi un folder de backup, o copie criptată stă în propriul tău iCloud Drive, în folderul ales. iCloud e oferit de Apple, conform politicii Apple. Noi nu avem acces la el, iar fișierele nu pot fi deschise fără cheia seifului. Fișierele seifului de pe dispozitiv nu intră în backup-ul iPhone-ului sau al iPad-ului, deci acest folder e singurul backup.
-- Dacă o poză sau un clip conține deja o locație, la import Vault13 copiază coordonatele în lista criptată de albume, ca să poată apărea pe harta din Căutare. Le poți șterge oricând (Căutare > Selectează > Locație). Vault13 nu cere niciodată acces la locația ta curentă.
+- Dacă o poză sau un clip conține deja o locație, la import Vault13 copiază coordonatele în lista criptată de albume, ca să poată apărea pe harta din Căutare. Le poți șterge oricând (Căutare > Selectează > Locație). Singura situație în care Vault13 îți citește locația curentă este opțiunea din jurnalul de intruși, descrisă mai jos.
 - Dacă folosești același folder pe mai multe dispozitive, lista criptată de albume conține și un identificator aleatoriu, creat de aplicație pentru fiecare dispozitiv. E folosit doar pentru sincronizare.
 
 ## PIN-urile, cheia seifului și codul de recuperare
@@ -102,8 +104,10 @@ Microfonul e folosit doar cât filmezi cu camera privată. Sunetul face parte di
 ## Jurnalul de intruși
 Fiecare PIN greșit introdus pe ușa seifului e salvat într-un jurnal, cu data, ora și cifrele tastate. Jurnalul e criptat, rămâne pe dispozitiv, păstrează cel mult 200 de înregistrări și poate fi șters din Setări > Jurnal intruși.
 
+Poziția la PIN greșit: opțiunea e oprită implicit. Dacă o pornești și permiți accesul la locație cât folosești aplicația, Vault13 citește o singură dată poziția dispozitivului după fiecare PIN greșit și salvează coordonatele în același jurnal criptat. Dacă se face și poza de intrus, ea păstrează aceleași coordonate în lista criptată de albume, ca orice poză cu locație. Coordonatele nu sunt trimise niciodată nouă sau altcuiva. Poți opri opțiunea din Setări > Jurnal intruși și poți retrage accesul la locație din Configurări > Vault13.
+
 ## Harta
-Harta din Căutare e oferită de Apple (MapKit). Când o deschizi, imaginile hărții pentru zona de pe ecran se descarcă de la Apple. Vault13 nu trimite pozele sau coordonatele lor; Apple poate vedea ce zonă a hărții e afișată, conform politicii Apple.
+Hărțile din Căutare și din jurnalul de intruși sunt oferite de Apple (MapKit). Când deschizi una, imaginile hărții pentru zona de pe ecran se descarcă de la Apple. Vault13 nu trimite pozele sau coordonatele lor; Apple poate vedea ce zonă a hărții e afișată, conform politicii Apple.
 
 ## Accesul la Poze
 Vault13 cere acces la Poze doar ca să importe ce alegi tu, să salveze înapoi în Poze la cererea ta și, dacă pornești opțiunea, să șteargă originalele după import. iOS îți cere confirmarea la fiecare ștergere.
