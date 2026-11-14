@@ -24,6 +24,12 @@
 
 **I forgot the password of a package.** The package cannot be opened: the password is not stored anywhere. Create a new package from the vault it came from.
 
+**Can I send photos without a file?** Yes, with QR transfer. Both devices must be on the same Wi-Fi; it does not work over mobile data. On the sending device select the photos (or albums) and tap Share > Send with QR (Wi-Fi) (albums: Package > Send with QR). On the other device: IMPORT > Receive with QR (Wi-Fi), then scan the code. Keep both apps open until it finishes.
+
+**QR transfer says "No connection".** Check that both devices are on the same Wi-Fi and that Vault13 is allowed to use Local Network (iOS Settings > Vault13), then try again.
+
+**Intruder photos do not appear on my other device.** That is intended: the Intruders album stays on the device where the wrong PIN was entered and is not part of the iCloud backup. Move a photo to another album if you want it backed up and synced.
+
 **Contact:** ionut00@gmail.com
 
 ---
@@ -53,5 +59,11 @@
 **Cum trimit poze către alt Vault13?** Selectează pozele (sau albumele), apasă Partajează > Pachet criptat cu parolă (la albume: Pachet) și alege o parolă. Trimite fișierul .v13pack prin AirDrop sau salvează-l în Fișiere. Pe celălalt dispozitiv: IMPORTĂ > Pachet Vault13, alege fișierul și scrie parola.
 
 **Am uitat parola unui pachet.** Pachetul nu mai poate fi deschis: parola nu se salvează nicăieri. Fă un pachet nou din seiful din care a plecat.
+
+**Pot trimite poze fără fișier?** Da, cu transferul cu QR. Ambele dispozitive trebuie să fie pe același Wi-Fi; nu merge pe date mobile. Pe dispozitivul care trimite selectează pozele (sau albumele) și apasă Partajează > Trimite cu QR (Wi-Fi) (la albume: Pachet > Trimite cu QR). Pe celălalt dispozitiv: IMPORTĂ > Primește cu QR (Wi-Fi), apoi scanează codul. Ține ambele aplicații deschise până se termină.
+
+**La transferul cu QR scrie „Fara legatura”.** Verifică dacă ambele dispozitive sunt pe același Wi-Fi și dacă Vault13 are voie la Rețea locală (Configurări > Vault13), apoi încearcă din nou.
+
+**Pozele de intrus nu apar pe celălalt dispozitiv.** Așa e gândit: albumul Intruși rămâne pe dispozitivul pe care s-a greșit PIN-ul și nu intră în backup-ul din iCloud. Mută o poză în alt album dacă vrei să intre în backup și să se sincronizeze.
 
 **Contact:** ionut00@gmail.com
