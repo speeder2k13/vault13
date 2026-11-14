@@ -21,9 +21,10 @@ Vault13 does not collect any data. There is no account, no analytics, no adverti
 - We never receive your PINs, your key or your recovery code.
 
 ## Camera
-Vault13 uses the camera in two cases:
+Vault13 uses the camera in three cases:
 - Private camera: when you tap the camera button, you take photos or record videos that go straight into your encrypted vault. They are never saved to the Photos library.
-- Intruder log photo: this option is off by default. If you turn it on, the front camera takes one photo after every third wrong PIN entered on the vault door. The photo is encrypted and kept in the Intruders album of your vault.
+- Intruder log photo: this option is off by default. If you turn it on, the front camera takes one photo after every third wrong PIN entered on the vault door. The photo is encrypted and kept in the Intruders album of your vault, on that device only: this album is not added to the iCloud backup and does not appear on your other devices. A photo you move to another album is backed up and synced like any other.
+- QR transfer: when you choose Receive with QR, the camera reads the code shown on your other device. No picture is taken or saved.
 
 Camera photos and videos are never sent anywhere. You can withdraw camera access at any time in iOS Settings > Vault13.
 
@@ -49,6 +50,9 @@ While the vault is open, Vault13 reads the device's position to lock the vault w
 
 ## Encrypted packages
 You can pack photos and videos into a single file protected by a password you choose, and share it yourself (AirDrop, Files). The file is encrypted with AES-256 on your device. Vault13 does not store the password and does not send the file anywhere: you decide where it goes. Anyone who has both the file and the password can open it in Vault13.
+
+## QR transfer over Wi-Fi
+You can send photos and videos directly to another device that runs Vault13. One device shows a QR code and the other scans it. The items are packed into an encrypted file (AES-256) with a one-time key that exists only in that QR code, and they travel directly between the two devices over your local Wi-Fi network. They do not pass through any server, ours or anyone else's. iOS asks for Local Network access the first time you use it; you can withdraw it at any time in iOS Settings > Vault13.
 
 ## Settings
 Your preferences (language, sound, import quality and similar) are stored only on your device.
@@ -92,9 +96,10 @@ Vault13 nu colectează date. Nu are cont, analiză statistică, reclame sau SDK-
 - Noi nu primim niciodată PIN-urile, cheia sau codul tău de recuperare.
 
 ## Camera
-Vault13 folosește camera în două situații:
+Vault13 folosește camera în trei situații:
 - Camera privată: când apeși butonul cu cameră, faci poze sau filmezi direct în seiful criptat. Ele nu ajung niciodată în aplicația Poze.
-- Poza din jurnalul de intruși: opțiunea e oprită implicit. Dacă o pornești, camera frontală face o poză la fiecare a treia încercare greșită de PIN pe ușa seifului. Poza e criptată și păstrată în albumul Intruși din seiful tău.
+- Poza din jurnalul de intruși: opțiunea e oprită implicit. Dacă o pornești, camera frontală face o poză la fiecare a treia încercare greșită de PIN pe ușa seifului. Poza e criptată și păstrată în albumul Intruși din seiful tău, doar pe acel dispozitiv: acest album nu intră în backup-ul din iCloud și nu apare pe celelalte dispozitive ale tale. O poză mutată în alt album intră în backup și se sincronizează ca oricare alta.
+- Transferul cu QR: când alegi Primește cu QR, camera citește codul arătat de celălalt dispozitiv. Nu se face și nu se salvează nicio poză.
 
 Pozele și clipurile făcute cu camera nu sunt trimise nicăieri. Poți retrage oricând accesul la cameră din Configurări > Vault13.
 
@@ -120,6 +125,9 @@ Cât seiful e deschis, Vault13 citește poziția dispozitivului ca să blocheze 
 
 ## Pachete criptate
 Poți pune poze și clipuri într-un singur fișier, protejat cu o parolă aleasă de tine, pe care îl trimiți tu (AirDrop, Fișiere). Fișierul e criptat AES-256 pe dispozitiv. Vault13 nu păstrează parola și nu trimite fișierul nicăieri: tu hotărăști unde ajunge. Cine are și fișierul, și parola îl poate deschide în Vault13.
+
+## Transfer cu QR prin Wi-Fi
+Poți trimite poze și clipuri direct către alt dispozitiv pe care rulează Vault13. Un dispozitiv arată un cod QR, iar celălalt îl scanează. Elementele sunt puse într-un fișier criptat (AES-256), cu o cheie de unică folosință care există doar în acel cod QR, și trec direct de la un dispozitiv la altul, prin rețeaua ta Wi-Fi locală. Nu trec prin niciun server, nici al nostru, nici al altcuiva. La prima folosire iOS cere acces la Rețea locală; îl poți retrage oricând din Configurări > Vault13.
 
 ## Setările
 Preferințele tale (limbă, sunet, calitatea importului și altele) stau doar pe dispozitiv.
