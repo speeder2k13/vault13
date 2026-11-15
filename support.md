@@ -4,19 +4,25 @@
 
 **I lost my recovery code.** Open the real vault, go to Settings > Recovery code. You can view it there or generate a new one.
 
-**I forgot the PIN and lost the code.** Nobody can open the vault, not even us: the photos are encrypted with a key only you hold.
+**I forgot the PIN and lost the code.** Nobody can open the vault, not even us: the photos are encrypted with a key only you hold. To start over, delete the app and install it again, then during setup choose another folder, or first delete the old Vault13 folder in the Files app.
+
+**I typed the PIN and nothing happens.** Tap OK after the PIN.
 
 **The door says "Locked. Try again in...".** After 5 wrong PINs the door pauses: 30 seconds, then 1, 5 and 15 minutes, then 1 hour. Wait for the countdown: during the pause the keypad and the dial do not respond. After it you can enter the PIN again, or hold the dial for 5 seconds and use your recovery code. Only the real PIN or the recovery code clears the count.
 
 **New device or reinstall.** During setup choose the same iCloud Drive folder. Vault13 finds the existing vault and restores it with your recovery code.
 
+**Restore says "Wrong code" although the code is right.** The folder probably holds a vault made by an older version of Vault13, which this version can no longer open. Choose another folder during setup, or delete the old Vault13 folder in the Files app and start again.
+
 **Using the vault on iPhone and iPad.** Set up the second device with the same iCloud Drive folder and your recovery code. Changes travel through iCloud Drive, so they can take a little while to appear. Tap the round orange sync button next to the backup status to sync right away. If you changed things on both devices, Vault13 keeps the new photos from both and asks which organization to keep.
 
 **Where do private camera photos go?** Straight into the album you choose, encrypted. They never appear in the Photos app.
 
+**Why did the import stop?** Leaving the app locks the vault, and locking stops the import. The originals are not touched. When you open the vault again, the "Import stopped" notice shows how many items made it: import the missing ones again. Keep the app open until the import finishes.
+
 **The camera does not open.** Allow camera access in iOS Settings > Vault13 > Camera. Recording video also needs Microphone access.
 
-**How does the intruder log work?** Every wrong PIN is listed in Settings > Intruder Log, with date and time. Turn on "Photo after 3 wrong attempts" to also get a front camera photo on every third wrong attempt. The photos appear in the Intruders album the next time you open the real vault. Turn on "Location on wrong PIN" to also save where the device was; tap the orange pin next to an entry to see the place on a map. The map needs an internet connection; the coordinates are shown even without one.
+**How does the intruder log work?** Every wrong PIN is listed in Settings > Intruder Log, with date and time. Turn on "Photo after 3 wrong attempts" to also get a front camera photo on every third wrong attempt. The photos appear in the Intruders album the next time you open the real vault. Nothing can be imported into the Intruders album. Turn on "Location on wrong PIN" to also save where the device was; tap the orange pin next to an entry to see the place on a map. The map needs an internet connection; the coordinates are shown even without one.
 
 **The vault locks when I put the device down.** That is "Lock when face down". You can turn it off in Settings > Security.
 
@@ -40,19 +46,25 @@
 
 **Am pierdut codul de recuperare.** Deschide seiful real, Setări > Codul de recuperare: îl vezi acolo sau generezi unul nou.
 
-**Am uitat și PIN-ul, și codul.** Nimeni nu mai poate deschide seiful, nici noi: pozele sunt criptate cu o cheie pe care o ai doar tu.
+**Am uitat și PIN-ul, și codul.** Nimeni nu mai poate deschide seiful, nici noi: pozele sunt criptate cu o cheie pe care o ai doar tu. Ca să pornești de la zero, șterge aplicația și instaleaz-o din nou, apoi la configurare alege alt folder sau șterge întâi folderul Vault13 vechi din aplicația Fișiere.
+
+**Am tastat PIN-ul și nu se întâmplă nimic.** Apasă OK după PIN.
 
 **Pe ușă scrie „Blocat. Incearca in...”.** După 5 PIN-uri greșite ușa face o pauză: 30 de secunde, apoi 1, 5 și 15 minute, apoi 1 oră. Aștepți numărătoarea: în pauză tastele și discul nu răspund. După ea poți introduce din nou PIN-ul sau ții apăsat 5 secunde pe disc și folosești codul de recuperare. Doar PIN-ul real sau codul de recuperare șterg numărătoarea.
 
 **Dispozitiv nou sau reinstalare.** La configurare alege același folder din iCloud Drive; Vault13 găsește seiful și îl restaurează cu codul de recuperare.
 
+**La restaurare scrie „Cod gresit”, deși codul e bun.** În folder e probabil un seif făcut cu o versiune mai veche de Vault13, pe care versiunea de acum nu îl mai poate deschide. Alege alt folder la configurare sau șterge folderul Vault13 vechi din aplicația Fișiere și ia-o de la capăt.
+
 **Folosesc seiful pe iPhone și pe iPad.** Configurează al doilea dispozitiv cu același folder din iCloud Drive și cu codul de recuperare. Modificările circulă prin iCloud Drive, deci pot apărea cu o mică întârziere. Atinge butonul rotund portocaliu de lângă starea backup-ului ca să sincronizezi pe loc. Dacă ai făcut modificări pe ambele dispozitive, Vault13 păstrează pozele noi de pe ambele și te întreabă care organizare rămâne.
 
 **Unde ajung pozele făcute cu camera privată?** Direct în albumul ales, criptate. Nu apar niciodată în aplicația Poze.
 
+**De ce s-a oprit importul?** Ieșirea din aplicație blochează seiful, iar blocarea oprește importul. Originalele rămân neatinse. Când redeschizi seiful, fereastra „Import oprit” îți arată câte au intrat: importă din nou ce lipsește. Ține aplicația deschisă până se termină importul.
+
 **Camera nu se deschide.** Permite accesul la cameră din Configurări > Vault13 > Cameră. Pentru filmare e nevoie și de acces la Microfon.
 
-**Cum funcționează jurnalul de intruși?** Fiecare PIN greșit apare în Setări > Jurnal intruși, cu data și ora. Pornește „Poză la 3 încercări greșite” ca să primești și o poză făcută cu camera frontală la fiecare a treia încercare greșită. Pozele apar în albumul Intruși la următoarea deschidere a seifului real. Pornește „Poziția la PIN greșit” ca să se salveze și locul în care era dispozitivul; atinge pinul portocaliu de lângă o înregistrare ca să vezi locul pe hartă. Harta are nevoie de internet; coordonatele se văd și fără.
+**Cum funcționează jurnalul de intruși?** Fiecare PIN greșit apare în Setări > Jurnal intruși, cu data și ora. Pornește „Poză la 3 încercări greșite” ca să primești și o poză făcută cu camera frontală la fiecare a treia încercare greșită. Pozele apar în albumul Intruși la următoarea deschidere a seifului real. În albumul Intruși nu se poate importa nimic. Pornește „Poziția la PIN greșit” ca să se salveze și locul în care era dispozitivul; atinge pinul portocaliu de lângă o înregistrare ca să vezi locul pe hartă. Harta are nevoie de internet; coordonatele se văd și fără.
 
 **Seiful se blochează când las dispozitivul jos.** Este „Blocare cu ecranul în jos”. O poți opri din Setări > Securitate.
 
