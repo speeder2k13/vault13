@@ -1,6 +1,6 @@
 # Vault13 – Privacy Policy
 
-Effective date: 14 November 2026
+Effective date: 15 November 2026
 
 Vault13 is a private photo and video vault for iPhone and iPad, made by Speeder2k13.
 
@@ -10,15 +10,16 @@ Vault13 does not collect any data. There is no account, no analytics, no adverti
 ## Your photos and videos
 - Everything you import or shoot is encrypted on your device with AES-256 before it is saved. Thumbnails and album names are encrypted too.
 - Information inside a photo or video file (date, camera, location) stays inside the encrypted file. Vault13 only shows it to you, in the details panel.
-- If you choose a backup folder, an encrypted copy is stored in your own iCloud Drive, in the folder you picked. iCloud is provided by Apple under Apple's privacy policy. We have no access to it, and the files cannot be opened without your vault key. The vault's files on the device are left out of the iPhone or iPad device backup, so this folder is the only backup.
+- If you choose a backup folder, an encrypted copy is stored in your own iCloud Drive, in the folder you picked. iCloud is provided by Apple under Apple's privacy policy. We have no access to it, and the files cannot be opened without your vault key. The files there have names that say nothing about their content. The vault's files on the device are left out of the iPhone or iPad device backup, so this folder is the only backup.
 - If a photo or video already contains a location, Vault13 copies its coordinates into the encrypted album list when you import it, so it can appear on the map in Search. You can remove it at any time (Search > Select > Location). The only time Vault13 reads your current location is the optional intruder log setting described below.
 - If you use the same folder on several devices, the encrypted album list also holds a random identifier created by the app for each device. It is used only to keep those devices in sync.
 
-## PINs, vault key and recovery code
-- Your PINs, the vault key and the recovery code are stored in the iOS Keychain on your device.
-- To let you restore the vault on another device, the backup folder also holds a copy of the vault key, encrypted with your recovery code. It cannot be opened without that code.
+## PINs, vault keys and recovery code
+- Your PINs are not stored anywhere. Each vault has its own key, kept in the iOS Keychain on your device and locked with that vault's PIN: it unlocks only when you type the PIN.
+- The recovery code is kept in the Keychain too, locked with the real vault's key: it can be seen only inside the open real vault.
+- To let you restore the vault on another device, the backup folder also holds a copy of the vault keys, encrypted with your recovery code. It cannot be opened without that code.
 - The count of wrong PIN attempts, and any pause that follows them, is kept in the iOS Keychain too.
-- We never receive your PINs, your key or your recovery code.
+- We never receive your PINs, your keys or your recovery code.
 
 ## Camera
 Vault13 uses the camera in three cases:
@@ -32,7 +33,7 @@ Camera photos and videos are never sent anywhere. You can withdraw camera access
 The microphone is used only while you record a video with the private camera. The sound is part of that video, which is stored encrypted in your vault.
 
 ## Intruder log
-Every wrong PIN entered on the vault door is saved in a log with the date, the time and the digits that were typed. The log is encrypted, stays on your device, holds at most 200 entries and can be cleared in Settings > Intruder Log.
+Every wrong PIN entered on the vault door is saved in a log with the date, the time and the digits that were typed. The log is encrypted, can be read only inside the open real vault, stays on your device, holds at most 200 entries and can be cleared in Settings > Intruder Log.
 
 Location on wrong PIN: this option is off by default. If you turn it on and allow location access while using the app, Vault13 reads the device's location once after each wrong PIN and saves the coordinates in the same encrypted log. If an intruder photo is taken, it keeps the same coordinates in the encrypted album list, like any other photo with a location. The coordinates are never sent to us or to anyone else. You can turn the option off in Settings > Intruder Log and withdraw location access in iOS Settings > Vault13.
 
@@ -75,7 +76,7 @@ ionut00@gmail.com
 
 # Vault13 – Politica de confidențialitate (română)
 
-Data intrării în vigoare: 14 noiembrie 2026
+Data intrării în vigoare: 15 noiembrie 2026
 
 Vault13 este un seif privat pentru poze și clipuri, pentru iPhone și iPad, făcut de Speeder2k13.
 
@@ -85,15 +86,16 @@ Vault13 nu colectează date. Nu are cont, analiză statistică, reclame sau SDK-
 ## Pozele și clipurile tale
 - Tot ce imporți sau fotografiezi e criptat AES-256 pe dispozitiv, înainte de salvare. Miniaturile și numele albumelor sunt și ele criptate.
 - Informațiile din fișier (data, aparatul, locația) rămân în fișierul criptat. Vault13 doar ți le arată, în fereastra de detalii.
-- Dacă alegi un folder de backup, o copie criptată stă în propriul tău iCloud Drive, în folderul ales. iCloud e oferit de Apple, conform politicii Apple. Noi nu avem acces la el, iar fișierele nu pot fi deschise fără cheia seifului. Fișierele seifului de pe dispozitiv nu intră în backup-ul iPhone-ului sau al iPad-ului, deci acest folder e singurul backup.
+- Dacă alegi un folder de backup, o copie criptată stă în propriul tău iCloud Drive, în folderul ales. iCloud e oferit de Apple, conform politicii Apple. Noi nu avem acces la el, iar fișierele nu pot fi deschise fără cheia seifului. Fișierele de acolo au nume care nu spun nimic despre conținut. Fișierele seifului de pe dispozitiv nu intră în backup-ul iPhone-ului sau al iPad-ului, deci acest folder e singurul backup.
 - Dacă o poză sau un clip conține deja o locație, la import Vault13 copiază coordonatele în lista criptată de albume, ca să poată apărea pe harta din Căutare. Le poți șterge oricând (Căutare > Selectează > Locație). Singura situație în care Vault13 îți citește locația curentă este opțiunea din jurnalul de intruși, descrisă mai jos.
 - Dacă folosești același folder pe mai multe dispozitive, lista criptată de albume conține și un identificator aleatoriu, creat de aplicație pentru fiecare dispozitiv. E folosit doar pentru sincronizare.
 
-## PIN-urile, cheia seifului și codul de recuperare
-- PIN-urile, cheia seifului și codul de recuperare stau în Keychain-ul iOS de pe dispozitiv.
-- Ca să poți restaura seiful pe alt dispozitiv, în folderul de backup stă și o copie a cheii seifului, criptată cu codul tău de recuperare. Nu poate fi deschisă fără acel cod.
+## PIN-urile, cheile seifului și codul de recuperare
+- PIN-urile nu sunt păstrate nicăieri. Fiecare seif are cheia lui, ținută în Keychain-ul iOS de pe dispozitiv și încuiată cu PIN-ul acelui seif: se deschide doar când tastezi PIN-ul.
+- Codul de recuperare stă tot în Keychain, încuiat cu cheia seifului real: se vede doar din seiful real deschis.
+- Ca să poți restaura seiful pe alt dispozitiv, în folderul de backup stă și o copie a cheilor seifului, criptată cu codul tău de recuperare. Nu poate fi deschisă fără acel cod.
 - Numărul de PIN-uri greșite și pauza care le urmează stau tot în Keychain-ul iOS.
-- Noi nu primim niciodată PIN-urile, cheia sau codul tău de recuperare.
+- Noi nu primim niciodată PIN-urile, cheile sau codul tău de recuperare.
 
 ## Camera
 Vault13 folosește camera în trei situații:
@@ -107,7 +109,7 @@ Pozele și clipurile făcute cu camera nu sunt trimise nicăieri. Poți retrage 
 Microfonul e folosit doar cât filmezi cu camera privată. Sunetul face parte din clip, care e păstrat criptat în seif.
 
 ## Jurnalul de intruși
-Fiecare PIN greșit introdus pe ușa seifului e salvat într-un jurnal, cu data, ora și cifrele tastate. Jurnalul e criptat, rămâne pe dispozitiv, păstrează cel mult 200 de înregistrări și poate fi șters din Setări > Jurnal intruși.
+Fiecare PIN greșit introdus pe ușa seifului e salvat într-un jurnal, cu data, ora și cifrele tastate. Jurnalul e criptat, poate fi citit doar din seiful real deschis, rămâne pe dispozitiv, păstrează cel mult 200 de înregistrări și poate fi șters din Setări > Jurnal intruși.
 
 Poziția la PIN greșit: opțiunea e oprită implicit. Dacă o pornești și permiți accesul la locație cât folosești aplicația, Vault13 citește o singură dată poziția dispozitivului după fiecare PIN greșit și salvează coordonatele în același jurnal criptat. Dacă se face și poza de intrus, ea păstrează aceleași coordonate în lista criptată de albume, ca orice poză cu locație. Coordonatele nu sunt trimise niciodată nouă sau altcuiva. Poți opri opțiunea din Setări > Jurnal intruși și poți retrage accesul la locație din Configurări > Vault13.
 
